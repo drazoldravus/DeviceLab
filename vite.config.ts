@@ -6,6 +6,9 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
+    preview: {
+    allowedHosts: ['devicetesthub.ai.studio'],
+    },
     resolve: {
       alias: {
         '@': path.resolve(import.meta.dirname || '.'),
