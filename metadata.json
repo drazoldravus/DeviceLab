@@ -1,0 +1,8 @@
+{
+  "name": "DeviceLab - Hardware, Battery & Stability Benchmark",
+  "description": "All-in-one browser-based diagnostic and testing suite for Android and Windows devices. Measures real-time compute performance, 3D WebGL graphics, battery efficiency, and software stability.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
